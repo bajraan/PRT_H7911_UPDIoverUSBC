@@ -2,9 +2,15 @@
 
 <div align="center">
     <a href="https://github.com/scottgriv/markdown-demo" target="_blank">
-        <img src="./docs/images/icon.png" width="200" height="200"/>
+        <img src="./docs/images/PCB_Main.png" />
     </a>
 </div>
+
+<div align="center">
+    <a href="https://daringfireball.net/projects/markdown/"><img src="https://img.shields.io/badge/Markdown-1.0.1-000000?style=for-the-badge&logo=markdown" alt="Markdown Badge" /></a>
+</div>
+
+
 <p align="center">
     <a href="https://daringfireball.net/projects/markdown/"><img src="https://img.shields.io/badge/Markdown-1.0.1-000000?style=for-the-badge&logo=markdown" alt="Markdown Badge" /></a>
     <br>
@@ -14,6 +20,19 @@
     <br>
     <a href="https://prgportfolio.com" target="_blank"><img src="https://img.shields.io/badge/PRG-Bronze Project-CD7F32?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNDRDdGMzIiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="Bronze" /></a>
 </p>
+
+---------------
+<div align="center">
+    <img src="./docs/images/LOGO-KiCAD.svg" width="120" height="50"/>
+</div>
+
+<div align="center">
+    <img src="./docs/images/LOGO-FreeCAD.svg" width="50" height="50"/>
+</div>
+
+<div align="center">
+    <a href="https://wiki.freecad.org/KicadStepUp_Workbench/it"><img src="https://wiki.freecad.org/images/c/cf/Kicad-StepUp-tools-WB.svg" alt="Markdown Badge" /></a>
+</div>
 
 ---------------
 
@@ -58,6 +77,41 @@ This repository serves as a comprehensive guide to Markdown syntax. Markdown is 
 - [License](#license)
 - [Credits](#credits)
 
+
+## Required Software
+```markdown
+[KiCAD](https://www.kicad.org/)
+[FreeCAD](https://www.freecad.org/)
+```
+## Workflow
+```markdown
+1. KiCAD-> **KiCAD_H7911_MAIN** [ Create single PCB ]
+
+2. KiCAD-> **KiCAD_H7911_MAIN** export to **_KiCAD_Export_H7911-PCB-1over2_**
+3. KiCAD-> **KiCAD_H7911_MAIN** export to **_KiCAD_Export_H7911-PCB-2over2_**
+
+4. KiCAD-> **_KiCAD_Export_H7911-PCB-1over2_** prepare and export silkscreen
+5. KiCAD-> **_KiCAD_Export_H7911-PCB-2over2_** prepare and export silkscreen
+
+6. Import pcb to FreeCAD using KiCAD Step Up WorkBench
+
+    1. FreeCAD-> **FreeCAD** import .kicad_pcb shape 1over2
+    2. FreeCAD-> **FreeCAD** import .kicad_pcb tracks 1over2
+    3. FreeCAD-> **FreeCAD** import .dxf silkscreen 1over2
+    4. FreeCAD-> **FreeCAD** import .kicad_pcb shape 2over2
+    5. FreeCAD-> **FreeCAD** import .kicad_pcb tracks 2over2
+    6. FreeCAD-> **FreeCAD** import .dxf silkscreen 2over2
+
+7. FreeCAD-> **FreeCAD** move pcb 1over2 to the corrent place
+
+```
+
+## helping sources
+
+https://www.youtube.com/watch?v=b3NoAOxOGxA
+
+## Use case 1
+## Use case 2
 ## Introduction
 
 Markdown is a lightweight markup language that was created by John Gruber and Aaron Swartz in 2004. The primary goal of Markdown is readability—the idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions.
@@ -415,9 +469,7 @@ This project is released under the terms of the **MIT License**, which permits u
 ---------------
 
 <div align="center">
-    <a href="https://scottgrivner.dev" target="_blank">
-        <img src="./docs/images/footer.png" width="100" height="100"/>
-    </a>
+    <img src="./docs/images/LOGO-FreeCAD.svg" width="50" height="50"/>
 </div>
 
 <!-- End README -->
