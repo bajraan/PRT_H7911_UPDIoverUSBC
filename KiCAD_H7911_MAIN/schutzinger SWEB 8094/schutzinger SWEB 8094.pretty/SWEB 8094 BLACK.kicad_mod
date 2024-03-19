@@ -1,0 +1,234 @@
+(footprint "SWEB 8094 BLACK"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J1"
+		(at 6.878 -8.085 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "668194b7-3b29-4dbd-ae5c-92a26f271258")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x01_MountingPin"
+		(at 0 -15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "92b882e4-de6e-478b-98b0-0a4890f44778")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2881e993-4816-473d-a94f-82970ddadf24")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f906990-cb60-499c-8274-047e9c0fb73d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Generic connectable mounting pin connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59052141-90d2-4b9e-8c70-b15c9600fb02")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "C7437327"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cebeb387-59ce-48b5-a0b0-30fe91271e8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN_ALT" "C7437326"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb601e5c-6ec1-4ab7-a6c7-04248cc8ea21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6 -13.5)
+		(end -6 -7.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad268578-0339-4cd8-9428-a76d30ca7e90")
+	)
+	(fp_line
+		(start -6 -13.5)
+		(end 6 -13.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c23e474c-0d7d-4a74-a91d-706bdc247326")
+	)
+	(fp_line
+		(start -6 -5.5)
+		(end -6 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1f5116f-4860-47aa-93fc-f1fc018eded7")
+	)
+	(fp_line
+		(start -6 5.5)
+		(end -6 4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7a26d34-5aee-4567-b7e4-d19c7deee0d9")
+	)
+	(fp_line
+		(start -6 5.5)
+		(end 6 5.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33f57e5a-e442-4023-bc02-00be6f295591")
+	)
+	(fp_line
+		(start 6 -13.5)
+		(end 6 -7.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a71cddf-fbf9-4b6a-aecd-67c208e11d14")
+	)
+	(fp_line
+		(start 6 -5.5)
+		(end 6 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f87796c4-7c58-4e29-9088-091bbcdffebd")
+	)
+	(fp_line
+		(start 6 5.5)
+		(end 6 4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b7c0841-deb5-4b33-bb61-84c4dc0a8408")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -9.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e90a6015-df10-42ea-bab1-9b66ab99b4b5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6 6)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "282c3e2c-1fdc-49ff-8738-be303cb89799")
+	)
+	(pad "MP" thru_hole circle
+		(at -5.08 -6.36)
+		(size 1.9 1.9)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "028027f3-0042-49ef-aa73-66f2a6f72cf0")
+	)
+	(pad "MP" thru_hole circle
+		(at -5.08 3.8)
+		(size 1.9 1.9)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5444a579-abe0-45ed-a3fb-4626b11aa607")
+	)
+	(pad "MP" thru_hole circle
+		(at 5.08 -6.36)
+		(size 1.9 1.9)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "963d3456-64e8-4b98-996e-e2b0ed58db96")
+	)
+	(pad "MP" thru_hole circle
+		(at 5.08 3.8)
+		(size 1.9 1.9)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "57432e0e-7e93-4497-b2a8-4d36b4d7de27")
+	)
+	(model "${KIPRJMOD}/schutzinger SWEB 8094/SWEB 8094 AU SW.step"
+		(offset
+			(xyz 0 13.5 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

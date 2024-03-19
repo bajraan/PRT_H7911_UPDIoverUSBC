@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/GCT USB4135-GF-A/footprints.pretty")(options "")(descr ""))
+  (lib (name "GCT_USB4180-03-0120-C")(type "KiCad")(uri "${KIPRJMOD}/GCT USB4180-03-0120-C/USB4180-03-0120-C_REVA/GCT_USB4180-03-0120-C.pretty")(options "")(descr ""))
+  (lib (name "schutzinger SWEB 8094")(type "KiCad")(uri "${KIPRJMOD}/schutzinger SWEB 8094/schutzinger SWEB 8094.pretty")(options "")(descr ""))
+)

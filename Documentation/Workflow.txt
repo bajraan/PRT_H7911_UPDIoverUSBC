@@ -1,0 +1,4 @@
+-> KiCAD main project -> jlcpcb
+	Save as -> pcb 1/2
+	Save as -> pcb 2/2
+		FreeCAD model

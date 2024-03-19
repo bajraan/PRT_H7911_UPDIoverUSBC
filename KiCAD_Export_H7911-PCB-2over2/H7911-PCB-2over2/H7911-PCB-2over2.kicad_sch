@@ -1,0 +1,186 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "43131934-8b44-4d7b-9e3d-69b3be3daef4")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 57.15 92.71)
+		(size 17.78 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2b6c281d-a693-4ad6-b0ff-cf5839c4044e")
+		(property "Sheetname" "Master"
+			(at 57.15 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Master.kicad_sch"
+			(at 57.15 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Master_VTG" input
+			(at 74.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "51c03305-1ad8-4f47-b96c-d81e101ada18")
+		)
+		(pin "Master_GND" input
+			(at 74.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "52a36417-4063-494e-b203-8538500fa873")
+		)
+		(pin "Master_DAT" input
+			(at 74.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "925730bf-d3b2-46f5-9bc9-36f88ba939ff")
+		)
+		(instances
+			(project "UPDI_2_USBC_Adaper"
+				(path "/43131934-8b44-4d7b-9e3d-69b3be3daef4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 113.03)
+		(size 26.67 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 182 123 1.0000)
+		)
+		(uuid "5d522525-b225-4253-92ca-c3b9b8d86354")
+		(property "Sheetname" "Mounting Holes"
+			(at 58.42 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 58.42 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UPDI_2_USBC_Adaper"
+				(path "/43131934-8b44-4d7b-9e3d-69b3be3daef4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 73.66)
+		(size 15.24 31.75)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b77e60e5-55e2-49db-8acc-325b98d4d3c1")
+		(property "Sheetname" "Slave"
+			(at 93.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Slave.kicad_sch"
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Slave_GND" input
+			(at 93.98 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7595462c-0c56-4e5d-8c67-cc8a77fe0a1e")
+		)
+		(pin "Slave_DAT" input
+			(at 93.98 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c1160b0-f6fc-4f03-b80e-b6a7f464a786")
+		)
+		(pin "Slave_VTG" input
+			(at 93.98 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b896a91e-eba6-4f37-ba00-fdbd95d9db08")
+		)
+		(instances
+			(project "UPDI_2_USBC_Adaper"
+				(path "/43131934-8b44-4d7b-9e3d-69b3be3daef4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
