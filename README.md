@@ -59,84 +59,62 @@
 ```markdown
 [KiCAD](https://www.kicad.org/)
 [FreeCAD](https://www.freecad.org/)
+[FreeCAD][Kicad Step UP]()
+[KiCAD][fabrication toolkig]()
 ```
 
 ## Workflow
 ```markdown
-1. KiCAD-> KiCAD_H7911_MAIN [ Create single PCB ]
+1. KiCAD  [/KiCAD_H7911_MAIN] Create PCB as a Panel
 
-2. KiCAD-> KiCAD_H7911_MAIN export to KiCAD_Export_H7911-PCB-1over2
-3. KiCAD-> KiCAD_H7911_MAIN export to KiCAD_Export_H7911-PCB-2over2
+2. KiCAD  [/KiCAD_H7911_MAIN] export to KiCAD_Export_H7911-PCB-1over2
+3. KiCAD  [/KiCAD_H7911_MAIN] export to KiCAD_Export_H7911-PCB-2over2
 
-4. KiCAD-> KiCAD_Export_H7911-PCB-1over2 prepare and export silkscreen
-5. KiCAD-> KiCAD_Export_H7911-PCB-2over2 prepare and export silkscreen
+4. KiCAD  KiCAD_Export_H7911-PCB-1over2 prepare and export silkscreen
+5. KiCAD  KiCAD_Export_H7911-PCB-2over2 prepare and export silkscreen
 
 6. Import PCB to FreeCAD using KiCAD Step Up WorkBench
 
-    1. FreeCAD-> FreeCAD import .kicad_pcb shape 1over2
-    2. FreeCAD-> FreeCAD import .kicad_pcb tracks 1over2
-    3. FreeCAD-> FreeCAD import .dxf silkscreen 1over2
-    4. FreeCAD-> FreeCAD import .kicad_pcb shape 2over2
-    5. FreeCAD-> FreeCAD import .kicad_pcb tracks 2over2
-    6. FreeCAD-> FreeCAD import .dxf silkscreen 2over2
+    1. FreeCAD  [/FreeCAD] import .kicad_pcb shape 1over2
+    2. FreeCAD  [/FreeCAD] import .kicad_pcb tracks 1over2
+    3. FreeCAD  [/FreeCAD] import .dxf silkscreen 1over2
+    4. FreeCAD  [/FreeCAD] import .kicad_pcb shape 2over2
+    5. FreeCAD  [/FreeCAD] import .kicad_pcb tracks 2over2
+    6. FreeCAD  [/FreeCAD] import .dxf silkscreen 2over2
 
-7. FreeCAD-> [/FreeCAD] Move pcb 1over2 to the corrent place
-8. FreeCAD-> Housing desing based on PCB shapes
-9. FreeCAD-> [/FreeCAD] Export housing shape to the .stl file
+7. FreeCAD  [/FreeCAD] Move pcb 1over2 to the correnct place
+8. FreeCAD  [/FreeCAD] Housing desing based on PCB shapes
+9. FreeCAD  [/FreeCAD] Export housing shape to the .stl file
+10. KiCAD  [/KiCAD_H7911_MAIN] Export fabrication data
+11. KiCAD  [/KiCAD_H7911_MAIN] Order PCB for example from jlcpcb.com 
 ```
 ## helping re-sources
 
 https://www.youtube.com/watch?v=b3NoAOxOGxA
 
-### Unordered Lists
+## helping re-sources
 
-```markdown
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-```
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
+> [!NOTE] 
+> Exporting PCB
+> KiCAD_H7911_MAIN export to KiCAD_Export_H7911-PCB-1over2
 
-*Or using dashes:*
+> [!NOTE] 
+> Exporting PCB
+> KiCAD_Export_H7911-PCB-1over2 prepare and export silkscreen
 
-```markdown
-- Item 1
-- Item 2
-  - Item 2a
-  - Item 2b
-```
-- Item 1
-- Item 2
-  - Item 2a
-  - Item 2b
+> [!NOTE] 
+> Exporting PCB
+> Import PCB to FreeCAD using KiCAD Step Up WorkBench
+Move pcb 1over2 to the correnct place
+Housing desing based on PCB shapes
+Export housing shape to the .stl file
+KiCAD_H7911_MAIN Export fabrication data
+Order PCB for example from jlcpcb.com
+Cutting Panel PCB
 
-### Ordered Lists
+## PCB Panel view
 
-```markdown
-1. Item 1
-2. Item 2
-3. Item 3
-   1. Item 3a
-   2. Item 3b
-```
-1. Item 1
-2. Item 2
-3. Item 3
-   1. Item 3a
-   2. Item 3b
 
-## Links
-
-```markdown
-[GitHub](http://github.com)
-[GitHub with Title](http://github.com "GitHub")
-```
-[GitHub](http://github.com) <br>
-[GitHub with Title](http://github.com "GitHub")
 
 ## Images
 
