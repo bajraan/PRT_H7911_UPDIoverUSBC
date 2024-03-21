@@ -1,7 +1,10 @@
 <!-- Begin README -->
-
+</br>
+</br>
+</br>
+</br>
 <div align="center">
-    <a href="https://github.com/scottgriv/markdown-demo" target="_blank">
+    <a>
         <img src="./docs/images/PCB_Main.png" />
     </a>
 </div>
@@ -78,13 +81,15 @@ This repository serves as a comprehensive guide to Markdown syntax. Markdown is 
 - [Credits](#credits)
 
 
-## Required Software
+## Buiid With
 ```markdown
 [KiCAD](https://www.kicad.org/)
 [FreeCAD](https://www.freecad.org/)
 ```
+
+## Software
 ## Workflow
-```markdown
+```
 1. KiCAD-> **KiCAD_H7911_MAIN** [ Create single PCB ]
 
 2. KiCAD-> **KiCAD_H7911_MAIN** export to **_KiCAD_Export_H7911-PCB-1over2_**
@@ -106,7 +111,7 @@ This repository serves as a comprehensive guide to Markdown syntax. Markdown is 
 
 ```
 
-## helping sources
+## helping re-sources
 
 https://www.youtube.com/watch?v=b3NoAOxOGxA
 
