@@ -105,7 +105,8 @@ https://www.youtube.com/watch?v=b3NoAOxOGxA
 > [!NOTE] 
 > Exporting PCB
 > KiCAD_Export_H7911-PCB-1over2 prepare and export silkscreen
-> <img src="https://wiki.freecad.org/images/c/cf/Kicad-StepUp-tools-WB.svg" alt="Markdown Badge" />
+> <br/>
+> <img src="./docs/images/KicadExport.gif" />
 > jurek
 
 > [!NOTE] 
