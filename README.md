@@ -103,7 +103,11 @@ https://www.youtube.com/watch?v=b3NoAOxOGxA
 > KiCAD_H7911_MAIN export to KiCAD_Export_H7911-PCB-1over2
 
 > [!NOTE] 
-> **_KiCAD_Export_H7911-PCB-1over2 prepare and export silkscreen_**<br/><br/><img src="./docs/images/KicadExport.gif" />
+> **_KiCAD_Export_H7911-PCB-1over2 prepare and export silkscreen_**
+>tt
+>tt
+>tt
+><img src="./docs/images/KicadExport.gif" />
 > jurek
 
 > [!NOTE] 
