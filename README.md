@@ -1,9 +1,12 @@
 <!-- Begin README -->
 </br>
 </br>
-<h2 align="center">
+<div align="center">
   UPDI over USB-C
-<h2>
+<div>
+
+<h1 align="center">Comprehensive Markdown Guide</h1>
+
 
 <p align="center">
     <img src="./docs/images/PCB_Main.png" />
