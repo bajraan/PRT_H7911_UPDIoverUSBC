@@ -1,5 +1,6 @@
 <!-- Begin README -->
 
+<h1 align="center">UPDI over USB-C</h1>
 
 <p align="center">
     <img src="./docs/images/PCB_Main.png" />
@@ -31,132 +32,61 @@
 </br>
 </br>
 
+## Content  [use]
+
+- [Features](##Features)
+- [Diagram](##Diagram)
+- [Use Case 1](##UseCase1)
+- [Use Case 2](##UseCase2)
+
+## Content [development]
+
+- [Workflow](##Workflow)
+- [Software](##Software)
 
 ## Features
+```markdown
+1. Programing target sample over USB-C cable interface
+2. Compatible with MICROCHIP PicKit 4 programmer
+3. Powering target device over USB-C cable interface
+4. Wide capabilities of power connectors
+```
+## Diagram
+## Use Case 1
+## Use Case 2
 
-<h1 align="center">Comprehensive Markdown Guide</h1>
-
-This repository serves as a comprehensive guide to Markdown syntax. Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents.
-
----------------
-
-## Table of Contents
-
-- [Introduction](#introduction)
-  - [Why Use Markdown?](#why-use-markdown)
-- [Headers](#headers)
-- [Emphasis](#emphasis)
-- [Lists](#lists)
-  - [Unordered Lists](#unordered-lists)
-  - [Ordered Lists](#ordered-lists)
-- [Links](#links)
-- [Images](#images)
-- [Code](#code)
-  - [Inline code](#inline-code)
-  - [Block code without syntax highlighting](#block-code-without-syntax-highlighting)
-  - [Block code with syntax highlighting](#block-code-with-syntax-highlighting)
-- [Tables](#tables)
-- [Horizontal Rules](#horizontal-rules)
-- [Blockquotes](#blockquotes)
-- [Inline HTML](#inline-html)
-- [Escaping Characters](#escaping-characters)
-- [Task Lists](#task-lists)
-- [Footnotes](#footnotes)
-- [Definition Lists](#definition-lists)
-- [Automatic URL Linking](#automatic-url-linking)
-- [Emojis](#emojis)
-- [Math Equations](#math-equations)
-- [Abbreviations](#abbreviations)
-- [Citations](#citations)
-- [GitHub Flavored Markdown](#github-flavored-markdown)
-  - [Alerts](#alerts)
-- [Closing](#closing)
-- [Resources](#resources)
-- [License](#license)
-- [Credits](#credits)
-
-
-## Buiid With
+## Software
 ```markdown
 [KiCAD](https://www.kicad.org/)
 [FreeCAD](https://www.freecad.org/)
 ```
 
-## Software
 ## Workflow
 ```markdown
-1. KiCAD-> **KiCAD_H7911_MAIN** [ Create single PCB ]
+1. KiCAD-> KiCAD_H7911_MAIN [ Create single PCB ]
 
-2. KiCAD-> **KiCAD_H7911_MAIN** export to **_KiCAD_Export_H7911-PCB-1over2_**
-3. KiCAD-> **KiCAD_H7911_MAIN** export to **_KiCAD_Export_H7911-PCB-2over2_**
+2. KiCAD-> KiCAD_H7911_MAIN export to KiCAD_Export_H7911-PCB-1over2
+3. KiCAD-> KiCAD_H7911_MAIN export to KiCAD_Export_H7911-PCB-2over2
 
-4. KiCAD-> **_KiCAD_Export_H7911-PCB-1over2_** prepare and export silkscreen
-5. KiCAD-> **_KiCAD_Export_H7911-PCB-2over2_** prepare and export silkscreen
+4. KiCAD-> KiCAD_Export_H7911-PCB-1over2 prepare and export silkscreen
+5. KiCAD-> KiCAD_Export_H7911-PCB-2over2 prepare and export silkscreen
 
 6. Import PCB to FreeCAD using KiCAD Step Up WorkBench
 
-    1. FreeCAD-> **FreeCAD** import .kicad_pcb shape 1over2
-    2. FreeCAD-> **FreeCAD** import .kicad_pcb tracks 1over2
-    3. FreeCAD-> **FreeCAD** import .dxf silkscreen 1over2
-    4. FreeCAD-> **FreeCAD** import .kicad_pcb shape 2over2
-    5. FreeCAD-> **FreeCAD** import .kicad_pcb tracks 2over2
-    6. FreeCAD-> **FreeCAD** import .dxf silkscreen 2over2
+    1. FreeCAD-> FreeCAD import .kicad_pcb shape 1over2
+    2. FreeCAD-> FreeCAD import .kicad_pcb tracks 1over2
+    3. FreeCAD-> FreeCAD import .dxf silkscreen 1over2
+    4. FreeCAD-> FreeCAD import .kicad_pcb shape 2over2
+    5. FreeCAD-> FreeCAD import .kicad_pcb tracks 2over2
+    6. FreeCAD-> FreeCAD import .dxf silkscreen 2over2
 
-7. FreeCAD-> [/**FreeCAD**] Move pcb 1over2 to the corrent place
+7. FreeCAD-> [/FreeCAD] Move pcb 1over2 to the corrent place
 8. FreeCAD-> Housing desing based on PCB shapes
 9. FreeCAD-> [/FreeCAD] Export housing shape to the .stl file
 ```
 ## helping re-sources
 
 https://www.youtube.com/watch?v=b3NoAOxOGxA
-
-## Use case 1
-## Use case 2
-## Introduction
-
-Markdown is a lightweight markup language that was created by John Gruber and Aaron Swartz in 2004. The primary goal of Markdown is readability—the idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions.
-
-Markdown has gained immense popularity over the years because of its simplicity and readability. It's widely used for writing README files, documentation, blog posts, forums, and even in chat applications.
-
-### Why Use Markdown?
-
-- **Readability**: Markdown's syntax is designed to be simple and intuitive.
-- **Platform Independent**: You can use Markdown in a text editor, in a web editor, or as the formatting syntax for entire platforms.
-- **Rich Output**: With simple syntax, you can produce rich text formatting.
-- **Compatibility**: Many platforms automatically convert Markdown to HTML, making it easy to display rich text in a web browser.
-- **Extensible**: While standard Markdown handles most common use cases, many platforms introduce their own extensions (called 'flavors') to add additional functionality like tables, code blocks, and more.
-
-## Headers
-
-```markdown
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-```
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-
-## Emphasis
-
-```markdown
-*italic* or _italic_
-**bold** or __bold__
-**_bold and italic_**
-~~strikethrough~~
-```
-*italic* or _italic_ <br>
-**bold** or __bold__ <br>
-**_bold and italic_** <br>
-~~strikethrough~~ <br>
-
-## Lists
 
 ### Unordered Lists
 
