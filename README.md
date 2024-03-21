@@ -90,7 +90,6 @@ This repository serves as a comprehensive guide to Markdown syntax. Markdown is 
 ## Software
 ## Workflow
 ```markdown
-```
 1. KiCAD-> **KiCAD_H7911_MAIN** [ Create single PCB ]
 
 2. KiCAD-> **KiCAD_H7911_MAIN** export to **_KiCAD_Export_H7911-PCB-1over2_**
@@ -108,10 +107,9 @@ This repository serves as a comprehensive guide to Markdown syntax. Markdown is 
     5. FreeCAD-> **FreeCAD** import .kicad_pcb tracks 2over2
     6. FreeCAD-> **FreeCAD** import .dxf silkscreen 2over2
 
-7. FreeCAD-> **FreeCAD** Move pcb 1over2 to the corrent place
+7. FreeCAD-> [/**FreeCAD**] Move pcb 1over2 to the corrent place
 8. FreeCAD-> Housing desing based on PCB shapes
-9. FreeCAD-> **FreeCAD** Export housing shape to the .stl file
-```
+9. FreeCAD-> [/FreeCAD] Export housing shape to the .stl file
 ```
 ## helping re-sources
 
