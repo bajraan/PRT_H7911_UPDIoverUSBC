@@ -3,7 +3,7 @@
 <h1 align="center">UPDI over USB-C</h1>
 
 <p align="center">
-    <img src="./docs/images/PCB_Main.png" />
+    <img src="docs/images/PCB_Main.png" />
     </br>
     </br>
     <a href="https://daringfireball.net/projects/markdown/"><img src="https://img.shields.io/badge/Markdown-1.0.1-000000?style=for-the-badge&logo=markdown" alt="Markdown Badge" /></a>
@@ -23,10 +23,14 @@
 </br>
 </br>
 <div align="center">
-    <img src="./docs/images/LOGO-KiCAD.svg" width="120" height="50"/>
-    <img src="./docs/images/LOGO-FreeCAD.svg" width="50" height="50"/>
-    <img src="./docs/images/LOGO_KiCAD_Fabrication_Toolkit.png" width="50" height="50"/>
-    <a href="https://wiki.freecad.org/KicadStepUp_Workbench/it"><img src="https://wiki.freecad.org/images/c/cf/Kicad-StepUp-tools-WB.svg" alt="Markdown Badge" /></a>
+    <a href="https://www.kicad.org/">
+    <img src="./docs/images/LOGO-KiCAD.svg" width="120" height="50"/></a>
+    <a href="https://www.freecad.org/">
+    <img src="./docs/images/LOGO-FreeCAD.svg" width="50" height="50"/></a>
+    <a href="https://github.com/bennymeg/Fabrication-Toolkit">
+    <img src="./docs/images/LOGO_KiCAD_Fabrication_Toolkit.png" width="50" height="50"/></a>
+    <a href="https://wiki.freecad.org/KicadStepUp_Workbench/it">
+    <img src="https://wiki.freecad.org/images/c/cf/Kicad-StepUp-tools-WB.svg" alt="Markdown Badge" /></a>
 </div>
 
 </br>
