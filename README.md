@@ -112,12 +112,12 @@ KiCAD_H7911_MAIN Export fabrication data
 Order PCB for example from jlcpcb.com
 Cutting Panel PCB
 
-## PCB Panel view
-
-
+## PCB panel view
+<img src="./docs/images/Panel_UP.png"     />
+<img src="./docs/images/Panel_FRONT.png"  />
+<img src="./docs/images/Panel_BUTTOM.png" />
 
 ## Images
-
 ```markdown
 ![GitHub-Mark-Light](/docs/images/github-mark-white.png#gh-dark-mode-only)
 ![GitHub-Mark-Dark](/docs/images/github-mark.png#gh-light-mode-only)
@@ -193,118 +193,10 @@ ___
 >
 > > This is a nested blockquote.
 
-## Inline HTML
 
-```html
-<span style="color:red">This is red text.</span>
-<div align="center">Centered Text</div>
-```
-<span style="color:red">This is red text.</span>
-<div align="center">Centered Text</div>
 
 ## Escaping Characters
-
-Backslash escapes Markdown characters:
-
-```markdown
-\*Not italic\*
-\# Not a header
-```
-\*Not italic\* <br>
-\# Not a header
-
 ## Task Lists
-
-In GitHub Flavored Markdown, you can create task lists:
-
-```markdown
-- [x] Completed task
-- [ ] Incomplete task
-```
-- [x] Completed task
-- [ ] Incomplete task
-
-## Footnotes
-
-Some Markdown processors allow you to use footnotes, like so:
-
-```markdown
-Here's a sentence with a footnote. [^1]
-[^1]: This is the footnote.
-```
-Here's a sentence with a footnote. [^1] <br>
-[^1]: This is the footnote.
-
-## Definition Lists
-
-Not universally supported, but useful where available:
-
-```markdown
-Apple
-:   Pomaceous fruit of plants of the genus Malus in the family Rosaceae.
-Orange
-:   The fruit of an evergreen tree of the genus Citrus.
-```
-Apple <br>
-:   Pomaceous fruit of plants of the genus Malus in the family Rosaceae. <br>
-Orange <br>
-:   The fruit of an evergreen tree of the genus Citrus.
-
-## Automatic URL Linking
-
-Most Markdown processors will automatically turn URLs into links:
-
-```markdown
-http://www.example.com
-```
-http://www.example.com
-
-## Emojis
-
-On platforms that support it (like GitHub), you can use shorthand for emojis:
-
-```markdown
-:smile: :+1:
-```
-:smile: :+1:
-
-## Math Equations
-
-Some Markdown renderers like the one used by Jupyter Notebook support `LaTeX` for rendering math equations:
-
-```markdown
-```math
-E = mc^2
-```
-
-```math
-E = mc^2
-```
-
-## Abbreviations
-
-Some extended Markdown processors allow abbreviations:
-
-```markdown
-*[HTML]: Hyper Text Markup Language
-*[W3C]:  World Wide Web Consortium
-```
-*[HTML]: Hyper Text Markup Language <br>
-*[W3C]:  World Wide Web Consortium
-
-## Citations
-
-Certain academic Markdown variants allow citations in `BibTeX` format:
-
-```markdown
-According to Smith [@smith04], blah blah...
-[@smith04]: John Smith. 2004. The Book Title. Publisher Name.
-```
-According to Smith [@smith04], blah blah... <br>
-[@smith04]: John Smith. 2004. The Book Title. Publisher Name.
-
-## GitHub Flavored Markdown
-
 ### Alerts
 
 GitHub Flavored Markdown supports alerts that can be used to highlight important information:
