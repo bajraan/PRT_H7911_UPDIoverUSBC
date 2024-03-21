@@ -1,11 +1,4 @@
 <!-- Begin README -->
-</br>
-</br>
-<div align="center">
-  UPDI over USB-C
-<div>
-
-<h1 align="center">Comprehensive Markdown Guide</h1>
 
 
 <p align="center">
@@ -13,8 +6,10 @@
     <a href="https://daringfireball.net/projects/markdown/"><img src="https://img.shields.io/badge/Markdown-1.0.1-000000?style=for-the-badge&logo=markdown" alt="Markdown Badge" /></a>
     <a href="https://github.com/bajraan"><img src="https://img.shields.io/badge/github-follow_me-181717?style=for-the-badge&logo=github&color=181717" alt="GitHub Badge" /></a>
     <a href="mailto:bajran1616@gmail.com"><img src="https://img.shields.io/badge/gmail-contact_me-EA4335?style=for-the-badge&logo=gmail" alt="Email Badge" /></a>
+</p>
 <p align="center">
     <img src="https://img.shields.io/badge/PCB-V0.0.0-brightgreen?style=for-the-badge" alt="Email Badge" />
+</p>
 <p align="center">
     <img src="https://img.shields.io/badge/Housing-V0.0.0-red?style=for-the-badge" alt="Email Badge" />
     <br>
@@ -28,14 +23,13 @@
     <img src="./docs/images/LOGO_KiCAD_Fabrication_Toolkit.png" width="50" height="50"/>
     <a href="https://wiki.freecad.org/KicadStepUp_Workbench/it"><img src="https://wiki.freecad.org/images/c/cf/Kicad-StepUp-tools-WB.svg" alt="Markdown Badge" /></a>
 </div>
+
 </br>
 </br>
 
 
-
----------------
 ## Features
----------------
+
 <h1 align="center">Comprehensive Markdown Guide</h1>
 
 This repository serves as a comprehensive guide to Markdown syntax. Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents.
