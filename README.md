@@ -36,14 +36,14 @@
 </br>
 </br>
 
-## Content  [use]
+## Content  [Project Utilization]
 
 - [Features](##Features)
 - [Diagram](##Diagram)
 - [Use Case 1](##UseCase1)
 - [Use Case 2](##UseCase2)
 
-## Content [development]
+## Content [Project Development]
 
 - [Workflow](##Workflow)
 - [Software](##Software)
