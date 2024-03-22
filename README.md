@@ -96,19 +96,12 @@
 
 https://www.youtube.com/watch?v=b3NoAOxOGxA
 
-## helping re-sources
+## Workflow Examples
 
-> [!NOTE] 
-> Exporting PCB
-> KiCAD_H7911_MAIN export to KiCAD_Export_H7911-PCB-1over2
-
-> [!NOTE] 
-> **_KiCAD_Export_H7911-PCB-1over2 prepare and export silkscreen_**
->tt
->tt
->tt
+**_KiCAD_Export_H7911-PCB-1over2 prepare and export silkscreen_**
+<br/>
 ><img src="./docs/images/KicadExport.gif" />
-> jurek
+-------------------
 
 > [!NOTE] 
 > Exporting PCB
