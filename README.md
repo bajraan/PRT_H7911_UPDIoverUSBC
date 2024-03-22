@@ -100,7 +100,13 @@ https://www.youtube.com/watch?v=b3NoAOxOGxA
 
 **_KiCAD_Export_H7911-PCB-1over2 prepare and export silkscreen_**
 <br/>
-><img src="./docs/images/KicadExport.gif" />
+<img src="./docs/images/KicadExport.gif" />
+-------------------
+<br/>
+> [!NOTE] 
+>**_KiCAD_Export_H7911-PCB-1over2 prepare and export silkscreen_**
+<br/>
+<img src="./docs/images/KicadExport.gif" />
 -------------------
 
 > [!NOTE] 
